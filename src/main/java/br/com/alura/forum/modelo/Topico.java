@@ -30,7 +30,7 @@ public class Topico {
 
 	@OneToMany(mappedBy = "topico")
 	private List<Resposta> respostas = new ArrayList<>();
-	
+
 
 	@Override
 	public int hashCode() {
